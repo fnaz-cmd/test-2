@@ -1,34 +1,32 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>inkBD.com - Online Bangla Library | Bangla Books, Boi, PDF & Jokes</title>
+    <title>inkBD.com - Online Bangla Library | Bangla Book, Bangla Boi, Bengali Books</title>
 
-    <meta name="description" content="inkBD.com is an online Bangla library where you can discover Bangla Book, Bangla Boi, Bangla book PDF, Bengali Books, Bangla jokes, stories, poems, literature and more.">
+    <meta name="description" content="inkBD.com is an online Bangla library for Bangla Book lovers. Read 5000+ Bangla Books online without PDF downloads. Explore Bangla Boi, Bengali Books, stories, novels, poems, literature and Bangla jokes.">
 
-    <meta name="keywords" content="Bangla Book, Bangla Boi, Bangla book pdf, Bangla jokes, Bengali Books, Bangla books online, Bengali books online, Bangla PDF books, Bengali PDF books, Bangla literature, Bangla novels, Bangla stories, Bangla poems, Bangla ebooks, online Bangla library">
+    <meta name="keywords" content="Bangla Book, Bangla Boi, Bangla book pdf, Bangla jokes, Bengali Books, Bangla Books Online, Bengali Books Online, Bangla PDF Books, Bangla eBooks, Bangla novels, Bangla stories, Bangla poems, Bangla literature, Bengali literature, online Bangla library, read Bangla books online">
 
     <meta name="author" content="inkBD.com">
-
     <meta name="robots" content="index, follow, max-image-preview:large">
 
     <link rel="canonical" href="https://inkbd.com/">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="inkBD.com - Online Bangla Library">
-    <meta property="og:description" content="Explore Bangla Book, Bangla Boi, Bangla book PDF, Bengali Books, Bangla jokes, stories, poems and more at inkBD.com.">
+    <meta property="og:site_name" content="inkBD.com">
+    <meta property="og:title" content="inkBD.com - Online Bangla Library for Bangla Book Lovers">
+    <meta property="og:description" content="Read 5000+ Bangla Books online without PDF or downloads. Explore Bangla Book, Bangla Boi, Bengali Books, stories, novels, poems and Bangla jokes at inkBD.com.">
     <meta property="og:url" content="https://inkbd.com/">
-    <meta property="og:image" content="https://freeimage.host/i/CQbMPUJ">
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="inkBD.com - Online Bangla Library">
-    <meta name="twitter:description" content="Discover Bangla books, Bengali Books, Bangla Boi, PDF books, stories, poems and Bangla jokes online.">
-    <meta name="twitter:image" content="https://freeimage.host/i/CQbMPUJ">
+    <meta name="twitter:description" content="Read 5000+ Bangla Books online. No PDF, no download. Explore Bangla Book, Bangla Boi and Bengali Books at inkBD.com.">
 
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -37,7 +35,7 @@
         "@type": "WebSite",
         "name": "inkBD.com",
         "url": "https://inkbd.com/",
-        "description": "Online Bangla Library featuring Bangla books, Bengali Books, Bangla Boi, Bangla book PDF, Bangla jokes, stories, poems and literature.",
+        "description": "Online Bangla Library for Bangla Book lovers. Read 5000+ Bangla Books online without PDF downloads.",
         "potentialAction": {
             "@type": "SearchAction",
             "target": "https://inkbd.com/?s={search_term_string}",
@@ -63,11 +61,9 @@
             line-height: 1.7;
         }
 
-        .hero {
-            background: linear-gradient(135deg, #102a43, #176b87);
-            color: #fff;
-            padding: 70px 20px;
-            text-align: center;
+        a {
+            color: #176b87;
+            text-decoration: none;
         }
 
         .container {
@@ -75,25 +71,50 @@
             margin: auto;
         }
 
+        /* HERO */
+        .hero {
+            background: linear-gradient(135deg, #102a43, #176b87);
+            color: #fff;
+            padding: 85px 20px;
+            text-align: center;
+        }
+
         .logo {
-            font-size: 46px;
+            font-size: 48px;
             font-weight: 800;
             letter-spacing: -2px;
-            margin-bottom: 10px;
+            margin-bottom: 18px;
         }
 
         .logo span {
             color: #ffd166;
         }
 
+        .logo a {
+            color: #fff;
+        }
+
         .hero h1 {
             font-size: clamp(32px, 5vw, 54px);
             line-height: 1.15;
-            margin: 15px 0;
+            margin: 15px 0 18px;
+        }
+
+        /* ONLINE READING MESSAGE */
+        .reading-message {
+            display: inline-block;
+            margin: 5px auto 20px;
+            padding: 10px 20px;
+            background: rgba(255, 209, 102, 0.15);
+            border: 1px solid rgba(255, 209, 102, 0.5);
+            border-radius: 30px;
+            color: #ffd166;
+            font-size: 18px;
+            font-weight: 700;
         }
 
         .hero p {
-            max-width: 800px;
+            max-width: 820px;
             margin: 20px auto;
             font-size: 19px;
             color: #e8f4f8;
@@ -102,7 +123,7 @@
         .btn {
             display: inline-block;
             margin-top: 20px;
-            padding: 14px 30px;
+            padding: 14px 32px;
             background: #ffd166;
             color: #16213e;
             text-decoration: none;
@@ -116,14 +137,7 @@
             background: #fff;
         }
 
-        .promo-image {
-            display: block;
-            width: min(900px, 100%);
-            margin: 45px auto 0;
-            border-radius: 15px;
-            box-shadow: 0 20px 50px rgba(0,0,0,0.25);
-        }
-
+        /* SECTIONS */
         .section {
             padding: 65px 20px;
         }
@@ -141,6 +155,16 @@
             text-align: center;
             color: #555;
             font-size: 18px;
+        }
+
+        .section p {
+            max-width: 900px;
+            margin: 18px auto;
+        }
+
+        /* FEATURES */
+        .keyword-section {
+            background: #eef6f8;
         }
 
         .features {
@@ -167,10 +191,7 @@
             color: #666;
         }
 
-        .keyword-section {
-            background: #eef6f8;
-        }
-
+        /* KEYWORDS */
         .keyword-links {
             display: flex;
             flex-wrap: wrap;
@@ -187,6 +208,7 @@
             text-decoration: none;
             font-weight: 600;
             border: 1px solid #d9e8ed;
+            transition: 0.3s;
         }
 
         .keyword-links a:hover {
@@ -194,6 +216,7 @@
             color: #fff;
         }
 
+        /* CTA */
         .cta {
             background: linear-gradient(135deg, #176b87, #102a43);
             color: #fff;
@@ -206,6 +229,7 @@
             margin-bottom: 15px;
         }
 
+        /* FOOTER */
         .footer {
             background: #0c1b29;
             color: #b8c7d1;
@@ -216,20 +240,24 @@
 
         .footer a {
             color: #ffd166;
-            text-decoration: none;
-        }
-
-        a {
-            color: #176b87;
         }
 
         @media (max-width: 600px) {
+
             .hero {
-                padding: 50px 15px;
+                padding: 60px 15px;
             }
 
             .logo {
                 font-size: 38px;
+            }
+
+            .hero h1 {
+                font-size: 34px;
+            }
+
+            .reading-message {
+                font-size: 16px;
             }
 
             .hero p {
@@ -245,217 +273,386 @@
 
 <body>
 
-    <!-- HERO SECTION -->
+    <!-- ==========================================
+         HERO SECTION
+    =========================================== -->
+
     <header class="hero">
+
         <div class="container">
 
             <div class="logo">
-                <a href="/" style="color:#fff; text-decoration:none;">
+                <a href="https://inkbd.com/" title="inkBD.com Online Bangla Library">
                     ink<span>BD</span>.com
                 </a>
             </div>
 
-            <h1>Online Bangla Library for Book Lovers</h1>
+            <h1>
+                Online Bangla Library for Bangla Book Lovers
+            </h1>
+
+            <div class="reading-message">
+                No PDF, No Download, Just Read Online 5000+ Bangla Books
+            </div>
 
             <p>
-                Discover the world of Bangla literature with inkBD.com.
-                Explore Bangla Book, Bangla Boi, Bengali Books, stories,
-                novels, poems, literature, Bangla jokes and much more —
-                all in one convenient online library.
+                Welcome to inkBD.com — your online destination for
+                <a href="https://inkbd.com/" style="color:#ffd166;">
+                    Bangla Book
+                </a>,
+                <a href="https://inkbd.com/" style="color:#ffd166;">
+                    Bangla Boi
+                </a>,
+                <a href="https://inkbd.com/" style="color:#ffd166;">
+                    Bengali Books
+                </a>,
+                Bangla literature, stories, novels, poems,
+                <a href="https://inkbd.com/" style="color:#ffd166;">
+                    Bangla book PDF
+                </a>
+                resources and entertaining
+                <a href="https://inkbd.com/" style="color:#ffd166;">
+                    Bangla jokes
+                </a>.
             </p>
 
-            <a class="btn" href="/">
+            <a
+                class="btn"
+                href="https://inkbd.com/"
+                title="Visit inkBD.com"
+            >
                 Explore inkBD.com
             </a>
 
-            <!-- Clickable Promotional Image -->
-            <a href="/" aria-label="Visit inkBD.com Online Bangla Library">
-                <img
-                    class="promo-image"
-                    src="https://freeimage.host/i/CQbMPUJ"
-                    alt="inkBD.com Online Bangla Library - Bangla Books and Bengali Books"
-                    loading="eager"
-                >
-            </a>
-
         </div>
+
     </header>
 
 
-    <!-- ABOUT SECTION -->
+    <!-- ==========================================
+         ABOUT inkBD
+    =========================================== -->
+
     <section class="section">
+
         <div class="container">
 
-            <h2>Welcome to inkBD.com</h2>
+            <h2>
+                Welcome to inkBD.com
+            </h2>
 
             <p class="section-intro">
-                inkBD.com is an online Bangla library created for readers
-                who love Bengali literature and Bangla books. Our goal is
-                to make Bengali reading content easier to discover and
-                access from anywhere.
+                inkBD.com is an online Bangla library created for
+                Bangla Book lovers and readers who enjoy Bengali
+                literature and Bangla reading content.
             </p>
 
             <p>
-                Whether you are searching for a classic
-                <a href="/">Bangla Book</a>,
-                a popular
-                <a href="/">Bangla Boi</a>,
-                Bengali literature, stories, novels, poems or
-                <a href="/">Bengali Books</a>,
-                inkBD.com brings useful Bangla reading resources together
-                in one place.
+                At
+                <a
+                    href="https://inkbd.com/"
+                    title="Bangla Book"
+                >
+                    Bangla Book
+                </a>
+                lovers can discover interesting books and reading
+                materials from the world of Bengali literature.
             </p>
 
             <p>
+                Searching for a
+                <a
+                    href="https://inkbd.com/"
+                    title="Bangla Boi"
+                >
+                    Bangla Boi
+                </a>?
                 Looking for
-                <a href="/">Bangla book PDF</a>
-                resources? Want to read interesting
-                <a href="/">Bangla jokes</a>,
-                stories or discover new Bengali writers and literature?
-                Visit inkBD.com and explore our growing online Bangla
-                library.
+                <a
+                    href="https://inkbd.com/"
+                    title="Bangla book PDF"
+                >
+                    Bangla book PDF
+                </a>
+                resources? Or perhaps you want to explore
+                <a
+                    href="https://inkbd.com/"
+                    title="Bengali Books"
+                >
+                    Bengali Books
+                </a>
+                and Bengali literature?
+            </p>
+
+            <p>
+                inkBD.com brings these topics together in one
+                convenient online Bangla library. Readers can explore
+                Bangla novels, stories, poems, literature, ebooks and
+                other interesting Bengali reading content.
+            </p>
+
+            <p>
+                For something lighter and more entertaining, you can
+                also discover
+                <a
+                    href="https://inkbd.com/"
+                    title="Bangla jokes"
+                >
+                    Bangla jokes
+                </a>
+                and fun Bengali content.
             </p>
 
         </div>
+
     </section>
 
 
-    <!-- FEATURES -->
+    <!-- ==========================================
+         FEATURES
+    =========================================== -->
+
     <section class="section keyword-section">
+
         <div class="container">
 
-            <h2>Explore the World of Bangla Reading</h2>
+            <h2>
+                Explore the World of Bangla Reading
+            </h2>
 
             <p class="section-intro">
-                Find different types of Bengali reading content and
-                discover something new every time you visit inkBD.com.
+                Discover books, literature, stories and entertaining
+                Bengali content at inkBD.com.
             </p>
 
             <div class="features">
 
                 <div class="feature">
-                    <h3>📚 Bangla Books</h3>
+
+                    <h3>
+                        📚 Bangla Books
+                    </h3>
+
                     <p>
-                        Discover a growing collection of
-                        <a href="/">Bangla Book</a> and
-                        <a href="/">Bangla Boi</a> for Bengali readers.
+                        Discover
+                        <a href="https://inkbd.com/">
+                            Bangla Book
+                        </a>
+                        and
+                        <a href="https://inkbd.com/">
+                            Bangla Boi
+                        </a>
+                        for Bengali readers.
                     </p>
+
                 </div>
 
-                <div class="feature">
-                    <h3>📖 Bengali Literature</h3>
-                    <p>
-                        Explore Bengali Books, literature, stories,
-                        novels, poems and other fascinating Bangla content.
-                    </p>
-                </div>
 
                 <div class="feature">
-                    <h3>📄 Bangla PDF Books</h3>
+
+                    <h3>
+                        📖 Bengali Books
+                    </h3>
+
                     <p>
-                        Find and discover
-                        <a href="/">Bangla book PDF</a>
-                        resources and useful Bengali reading materials.
+                        Explore
+                        <a href="https://inkbd.com/">
+                            Bengali Books
+                        </a>,
+                        literature, novels, stories and poems.
                     </p>
+
                 </div>
 
+
                 <div class="feature">
-                    <h3>😄 Bangla Jokes</h3>
+
+                    <h3>
+                        📄 Bangla Book PDF
+                    </h3>
+
                     <p>
-                        Take a break from reading with entertaining
-                        <a href="/">Bangla jokes</a> and fun Bengali content.
+                        Discover
+                        <a href="https://inkbd.com/">
+                            Bangla book PDF
+                        </a>
+                        resources and Bengali reading materials.
                     </p>
+
+                </div>
+
+
+                <div class="feature">
+
+                    <h3>
+                        😄 Bangla Jokes
+                    </h3>
+
+                    <p>
+                        Enjoy entertaining
+                        <a href="https://inkbd.com/">
+                            Bangla jokes
+                        </a>
+                        and fun Bengali content.
+                    </p>
+
                 </div>
 
             </div>
 
         </div>
+
     </section>
 
 
-    <!-- SEO KEYWORD SECTION -->
+    <!-- ==========================================
+         SEO KEYWORDS
+    =========================================== -->
+
     <section class="section">
+
         <div class="container">
 
-            <h2>Popular Bangla Reading Searches</h2>
+            <h2>
+                Popular Bangla Reading Topics
+            </h2>
 
             <p class="section-intro">
-                Start exploring inkBD.com using some of the popular
-                Bangla library topics below.
+                Explore inkBD.com and discover Bengali books and
+                Bangla reading content.
             </p>
 
             <div class="keyword-links">
 
-                <a href="/">Bangla Book</a>
+                <a href="https://inkbd.com/" title="Bangla Book">
+                    Bangla Book
+                </a>
 
-                <a href="/">Bangla Boi</a>
+                <a href="https://inkbd.com/" title="Bangla Boi">
+                    Bangla Boi
+                </a>
 
-                <a href="/">Bangla book PDF</a>
+                <a href="https://inkbd.com/" title="Bangla book PDF">
+                    Bangla book PDF
+                </a>
 
-                <a href="/">Bangla jokes</a>
+                <a href="https://inkbd.com/" title="Bangla jokes">
+                    Bangla jokes
+                </a>
 
-                <a href="/">Bengali Books</a>
+                <a href="https://inkbd.com/" title="Bengali Books">
+                    Bengali Books
+                </a>
 
-                <a href="/">Bangla Books Online</a>
+                <a href="https://inkbd.com/" title="Bangla Books Online">
+                    Bangla Books Online
+                </a>
 
-                <a href="/">Bengali Books Online</a>
+                <a href="https://inkbd.com/" title="Bengali Books Online">
+                    Bengali Books Online
+                </a>
 
-                <a href="/">Bangla PDF Books</a>
+                <a href="https://inkbd.com/" title="Bangla PDF Books">
+                    Bangla PDF Books
+                </a>
 
-                <a href="/">Bangla Novels</a>
+                <a href="https://inkbd.com/" title="Bangla eBooks">
+                    Bangla eBooks
+                </a>
 
-                <a href="/">Bangla Stories</a>
+                <a href="https://inkbd.com/" title="Bangla Novels">
+                    Bangla Novels
+                </a>
 
-                <a href="/">Bangla Poems</a>
+                <a href="https://inkbd.com/" title="Bangla Stories">
+                    Bangla Stories
+                </a>
 
-                <a href="/">Bangla Literature</a>
+                <a href="https://inkbd.com/" title="Bangla Poems">
+                    Bangla Poems
+                </a>
 
-                <a href="/">Bangla eBooks</a>
+                <a href="https://inkbd.com/" title="Bangla Literature">
+                    Bangla Literature
+                </a>
 
-                <a href="/">Bengali Literature</a>
+                <a href="https://inkbd.com/" title="Bengali Literature">
+                    Bengali Literature
+                </a>
+
+                <a href="https://inkbd.com/" title="Online Bangla Library">
+                    Online Bangla Library
+                </a>
 
             </div>
 
         </div>
+
     </section>
 
 
-    <!-- CTA -->
+    <!-- ==========================================
+         FINAL CTA
+    =========================================== -->
+
     <section class="cta">
+
         <div class="container">
 
-            <h2>Start Exploring Bangla Books Today</h2>
+            <h2>
+                Start Reading Bangla Books Online
+            </h2>
 
             <p>
-                Your next favorite Bangla Book, Bangla Boi or Bengali
-                Books may be just a click away.
+                No PDF. No download. Just open inkBD.com and
+                read your favorite Bangla Books online.
             </p>
 
-            <a class="btn" href="/">
+            <a
+                class="btn"
+                href="https://inkbd.com/"
+                title="Visit inkBD.com Online Bangla Library"
+            >
                 Visit inkBD.com
             </a>
 
         </div>
+
     </section>
 
 
-    <!-- FOOTER -->
+    <!-- ==========================================
+         FOOTER
+    =========================================== -->
+
     <footer class="footer">
+
         <div class="container">
 
             <p>
                 © 2026
-                <a href="/">inkBD.com</a>
+                <a href="https://inkbd.com/" title="inkBD.com">
+                    inkBD.com
+                </a>
                 — Online Bangla Library
             </p>
 
             <p>
-                Bangla Book • Bangla Boi • Bangla book PDF •
-                Bangla jokes • Bengali Books
+                <a href="https://inkbd.com/">Bangla Book</a>
+                •
+                <a href="https://inkbd.com/">Bangla Boi</a>
+                •
+                <a href="https://inkbd.com/">Bangla book PDF</a>
+                •
+                <a href="https://inkbd.com/">Bangla jokes</a>
+                •
+                <a href="https://inkbd.com/">Bengali Books</a>
             </p>
 
         </div>
+
     </footer>
 
 </body>
 </html>
+```
